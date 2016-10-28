@@ -214,7 +214,7 @@ contexts:
       scope: support.type.type.flowtype.js
       push:
         - meta_scope: meta.type.flowtype.js
-        - match: (?=\s*(;|from))
+        - match: (?=\s*(;|from|\n))
           pop: true
         - include: flowtype-tokens
 
